@@ -63,7 +63,7 @@ const Receta = ({receta}) => {
                 <div className="card-header">
                     <h2 className="card-header">{receta.strDrink}</h2>
                     <img className="card-img-top" src={receta.strDrinkThumb}
-                        alt={`Imagen de $ {receta.strDrink}`} />
+                        alt={`Imagen de ${receta.strDrink}`} />
 
                     <div className="card-body">
                         <button
@@ -93,6 +93,7 @@ const Receta = ({receta}) => {
                                 </p>
                                 <img className="img-fluid my-4" 
                                     src={informacion.strDrinkThumb}
+                                    alt="Info"
                                 />
 
                                 <h3>Ingredientes y cantidades</h3>
